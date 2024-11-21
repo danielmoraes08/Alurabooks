@@ -35,3 +35,25 @@
     background: url("../imagens/Lupa.svg") no-repeat;
     background-position: 1em;
 }
+
+@media screen and (min-width: 1024px){
+
+    .banner{
+        padding: 5em 2em;
+    }
+
+    .banner__title{
+        font-size: 36px;
+    }
+
+    #banner__input{
+        width: 50%;
+    }
+
+    #banner__input::placeholder{
+        background-position: 6em ;
+    }
+
+
+
+}
