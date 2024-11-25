@@ -63,3 +63,18 @@
 
 
 }
+@media screen and (min-width: 1728px){
+        
+    .topicos__lista{
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .linha-2{
+        justify-content: center;
+        gap: 3em;
+    }
+
+
+}

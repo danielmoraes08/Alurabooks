@@ -46,3 +46,19 @@ hr{
         color: var(--cinza-escuro);
     }
 }
+
+@media screen and (min-width: 1728px){
+
+    .footer{
+        padding: 4.5em 7em;
+    }
+
+    .footer__list{
+        border-left: 1px solid var(--cinza);
+    }
+
+    .footer__list{
+        padding-left: 1em;
+    }
+
+}

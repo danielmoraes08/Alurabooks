@@ -62,3 +62,19 @@
     }
 
 }
+
+@media screen and (min-width: 1728px){
+
+    .contato{
+        padding: 4em 0;
+    }
+
+
+    .contato__input{
+        width: 15%;
+    }
+
+    .contato__texto{
+        max-width: 60%;
+    }
+}

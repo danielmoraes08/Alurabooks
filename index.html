@@ -41,11 +41,12 @@
         <ul class="opcoes">
             <input type="checkbox" name="" id="opcoes__menu" class="opcoes__botao">
             <label for="opcoes__menu">
-                <li class="opcoes__item opcoes__link">Categorias</li>
+                <li class="opcoes__item opcoes__link" id="categorias">Categorias</li>
             </label>
 
             <li class="opcoes__item"><a href="" class="opcoes__link">Favoritos</a></li>
             <li class="opcoes__item"><a href="" class="opcoes__link">Minha Estante</a></li>
+            
 
             <ul class="menu-lista">
                 <li class="menu-lista__item">
@@ -69,8 +70,14 @@
 
         <div class="header__container">
             <a href="#" id="foto-favoritos"><img class="container__img" src="imagens/Favoritos.svg" alt="Foto Favoritos"></a>
-            <a href="#"><img class="container__img" src="imagens/Compras.svg" alt="Foto Compras"></a>
-            <a href="#"><img class="container__img" src="imagens/Usuario.svg" alt="Foto Usuario"></a>
+            <a href="#" class="container__ancora">
+                <img class="container__img" src="imagens/Compras.svg" alt="Foto Compras">
+                <p class="container__link">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__ancora">
+                <img class="container__img" id="foto-usuario" src="imagens/Usuario.svg" alt="Foto Usuario">
+                <p class="container__link">Meu Perfil</p>
+            </a>
         </div>
      </header>
 
@@ -83,7 +90,9 @@
      <section class="carrosel">
         <h2 class="carrossel__title">Novos Lançamentos</h2>
 
-        <div class="swiper">
+        <div class="carrossel__container">
+
+          <div class="swiper">
             
             <div class="swiper-wrapper">
               
@@ -122,6 +131,8 @@
             </div>
             
           </div>
+        </div>
+    
      </section>
 
      <section class="segundo__carossel">
